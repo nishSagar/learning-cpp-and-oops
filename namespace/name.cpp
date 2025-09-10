@@ -13,6 +13,9 @@ namespace second {
 int main() {
   // int x = 5;
   using namespace first;
+  // using namespace std; BAD PRACTISE
+  // or we can use
+  // using std::cout or std::string
 
   // std::cout << x;
 
