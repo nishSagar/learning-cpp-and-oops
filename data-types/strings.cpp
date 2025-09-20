@@ -1,9 +1,10 @@
 #include <iostream>
+#include <string> // use it to get access to the in-built string funtions
+
 
 int main() {
-  std::string name = "Nitesh";
-  std::string bio = " is 20 years old and weighs 43.5kg";
-  std::cout << name << bio;
+  std::string greeting = "Hello";
+  std::cout << greeting;
 
   return 0;
 }
