@@ -17,9 +17,9 @@ int main() {
   // Increment ++
   // Decrement --
 
-  int pre = 2 - 5 / 6 + 3 * 6;
+  // int pre = 2 - 5 / 6 + 3 * 6;
 
-  std::cout << pre;
+  // std::cout << pre;
 
   // int num = 5;
 
@@ -38,6 +38,12 @@ int main() {
   // num--;
 
   // std::cout << num;
+
+  int a = 5;
+  int b;
+  // b = ++a; // preincrement
+  b = a++; // postincrement
+  std::cout << "a is: " << a << " and b is: " << b;
 
   return 0;
 }
