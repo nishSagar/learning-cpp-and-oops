@@ -3,20 +3,30 @@ using namespace std;
 
 // #define PI 3.14
 
-int main() {
-  string name = "John";
-  #define PI 3.14;
-  int age = 35;
-  double height = 6.1;
+int main()
+{
+  // string name = "John";
+  // #define PI 3.14;
+  // int age = 35;
+  // double height = 6.1;
   // cout << name << " is " << age << " years old and " << height << " feet tall.";
 
-  string nam = "Nitesh";
-  int agee = 20;
-  double mark = 62.5;
+  // string nam = "Nitesh";
+  // int agee = 20;
+  // double mark = 62.5;
   // cout << nam << " is " << agee << "year old and mark are " << mark;
 
-  cout << PI;
+  // cout << PI;
+
+  // int num1 = 5;
+  // int num2 = 5;
+  // int sum = num1 + num2;
+  // cout << sum;
+
+  if (5 == 3)
+  {
+    cout << "yayyyy!";
+  }
 
   return 0;
 }
-
