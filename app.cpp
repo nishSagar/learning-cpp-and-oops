@@ -23,10 +23,7 @@ int main()
   // int sum = num1 + num2;
   // cout << sum;
 
-  if (5 == 3)
-  {
-    cout << "yayyyy!";
-  }
+  cout << "Hello World!";
 
   return 0;
 }
